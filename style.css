@@ -1,0 +1,32 @@
+.menu{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color:aqua;
+
+    
+}
+.menu ul{
+    display:flex;
+   justify-content: center;
+   gap:10px;
+   list-style: none;
+   a{
+
+    color:black;
+   }
+}
+
+.verygood{
+
+    position: absolute;
+    width:100%;
+    display: none;
+    left:0;
+   
+    background-color: green;
+
+}
+
+ .don:hover .verygood{
+    display:block;
+ }
